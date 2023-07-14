@@ -9,9 +9,19 @@ $secondary: #88d9e6;
 $success: #f4d452;
 $dark: #b173b3;
 $light: #f8f2f8;
+$black: #2C192D;
  */
 
 /* Custom default button */
+.navy-font {
+  color: #2c192d;
+}
+
+.hero-section {
+  background-color: #b173b3;
+  color: #f8f2f8;
+}
+
 .btn-light {
   color: #f8f2f8;
 }
@@ -23,13 +33,15 @@ $light: #f8f2f8;
 }
 
 .btn-bg {
-  background-color: #88d9e6;
-  border-color: #88d9e6;
+  background-color: #004aac;
+  border-color: #004aac;
+  color: #f8f2f8;
 }
 
 .btn-bg:hover {
-  background-color: #f4d452;
-  border-color: #f4d452;
+  background-color: #003780;
+  border-color: #003780;
+  color: #f8f2f8;
   transition: 0.5s;
 }
 
@@ -62,4 +74,8 @@ $light: #f8f2f8;
 .nav-masthead .active {
   color: #f8f2f8;
   border-bottom-color: #f4d452;
+}
+
+a {
+  text-decoration: none;
 }
